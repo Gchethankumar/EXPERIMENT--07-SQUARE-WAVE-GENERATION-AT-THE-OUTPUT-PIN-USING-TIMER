@@ -244,38 +244,47 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ![Screenshot 2023-05-27 155259](https://github.com/Gchethankumar/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118348224/2d1308aa-5405-45ae-b7d8-9285d815daf3)
 
- 
+FOR PULSE AT 500
+![osimg1](https://github.com/Gchethankumar/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118348224/87766496-e92c-4fc7-9868-0724a288c52a)
+
+FOR PULSE AT 700
+
+![osimg2](https://github.com/Gchethankumar/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118348224/5b710f69-f07c-456b-a243-01c6a1db039e)
+
+FOR PULSE AT 900
+
+![osimg3](https://github.com/Gchethankumar/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118348224/b40c36a4-78c4-4c50-a572-af62fa6e6a20)
+
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
  ![Screenshot 2023-05-27 155331](https://github.com/Gchethankumar/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118348224/5490eb8e-90bb-49dd-8234-9ea01353eae6)
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
+
 FOR PULSE AT 500
-
-TON = 
-TOFF=
-TOTAL TIME = 
+```
+TON = 2ms
+TOFF = 2ms
+TOTAL TIME = 4ms
 FREQUENCY = 1/(TOTAL TIME)
-
+FREQUENCY = 250 Hz
+```
 FOR PULSE AT 700
-
-TON = 
-TOFF=
-TOTAL TIME = 
+```
+TON = 3ms
+TOFF = 1ms
+TOTAL TIME = 4ms
 FREQUENCY = 1/(TOTAL TIME)
-
-
+FREQUENCY = 250 Hz
+```
 FOR PULSE AT 900
-
-TON = 
-TOFF=
-TOTAL TIME = 
+```
+TON = 3.5ms
+TOFF = 0.5ms
+TOTAL TIME = 4ms
 FREQUENCY = 1/(TOTAL TIME)
-
-
+FREQUENCY = 250 Hz
+```
 ## Result :
+
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
-
-
-
-
